@@ -110,9 +110,13 @@ header .navbar-brand img {
 	padding-bottom: 120px;
 	text-align: center;
 }
+
 .banner1 {
 	/*background: #e47133;*/
 	background-image:url("https://www.ugandawildlife.org/images/header-images/Parks/mgnp/AlphaMaleSleeping.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1500px;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
@@ -125,13 +129,19 @@ header .navbar-brand img {
 	line-height: 35px;
 	color: black;
 	text-transform: capitalize;
+	background-repeat: no-repeat;
 }
+
 .banner2{
 	/*background: #e47133;*/
 	background-image:url("https://www.ugandawildlife.org/images/header-images/Parks/menp/MENP-mubiyi-rocks.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1500px;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
+	margin-right: 50px;
 }
 
 .banner h2 {
@@ -159,7 +169,6 @@ header .navbar-brand img {
 	margin-top: 10px;
 	font-size: 13px;
 	line-height: 24px;
-	color: black;
 	text-transform: uppercase;
 	letter-spacing: 0.055em;
 }
@@ -276,8 +285,12 @@ footer {
 	background: green;
 	text-align: center;
 	border-top: 1px solid rgba(0,0,0,0.1);
+	width: 1500px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-footer.ffoot {margin-top: 0;}
+footer.ffoot {margin-top: 0;
+}
 footer p {
 	font-size: 13px;
 	line-height: 25px;
